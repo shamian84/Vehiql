@@ -3,6 +3,8 @@ const nextConfig = {
   experimental: {
     serverComponentsHmrCache: false, // defaults to true
   },
+  // Ensure your build can handle the new 2026 packages
+  transpilePackages: ["@google/genai"],
   images: {
     remotePatterns: [
       {
