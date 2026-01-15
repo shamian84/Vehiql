@@ -5,6 +5,7 @@ const nextConfig = {
   },
   // Ensure your build can handle the new 2026 packages
   transpilePackages: ["@google/genai"],
+  output: 'standalone',
   images: {
     remotePatterns: [
       {
